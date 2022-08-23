@@ -32,8 +32,7 @@ public class PythonService {
 
         writeToFile(script);
 
-        ProcessBuilder builder = new ProcessBuilder("cmd.exe", "/C", "start")
-                .directory(new File("D:/scriptfolder"));
+        ProcessBuilder builder = new ProcessBuilder("cmd.exe", "/C", "start");
 
 
         String dir = String.format("%s/:/app", System.getProperty("user.dir"));
