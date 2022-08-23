@@ -1,7 +1,7 @@
 # Python Playground
 
 Exercise for IDATT2104 Network Programming subject on NTNU. 
-
+The program gets a python script from the user through a simple website. The script is then executed with docker on the backend, and the result is returned to the user.
 
 ## Example
 
